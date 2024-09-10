@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { useCurrentUser } from "../hooks/useCurrentUser";
+import { useCurrentUser } from "../api/use-current-user";
 
 export const UserButton = () => {
   const { signOut } = useAuthActions();
